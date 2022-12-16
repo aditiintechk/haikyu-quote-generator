@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Silom', Inter;
+    display: flex;
+    flex-direction: column;
+    background-color: #F7E8CD;
+}
+
+header {
+    margin: 1rem 0;
+}
+
+.title {
+    font-size: 2.2rem;
+    text-align: center;
+    height: 3rem;
+    color: #4F4538;
+    cursor: pointer;
+}
+
+.title:hover {
+    color: #F7E8CD;
+    -webkit-text-stroke-width: 0.15rem;
+    -webkit-text-stroke-color: #4F4538;
+}
+
+.divider {
+    border-bottom: 0.15rem #70624F solid;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.quote-content {
+
+    width: 40rem;
+    height: auto;
+    padding: 4rem 2rem;
+    text-align: center;
+
+    border: 0.15rem solid #4F4538;
+    border-radius: 0.5rem;
+
+    box-shadow: 0.5rem 0.4rem #4F4538;
+}
+
+#quote {
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+
+    font-size: 1.8rem;
+    color:#4F4538;
+}
+
+#author {
+    font-size: 1.5rem;
+    color:#4F4538;
+}
+
+.quote-btn {
+    margin-top: 2rem;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.new-quote-btn {
+    width: 12rem;
+    height: 1.8rem;
+
+    background-color: inherit;
+    font-family: inherit;
+    font-size: 1.2rem;
+    color:#4F4538;
+
+    border: 0.15rem solid #4F4538;
+    border-radius: 0.3rem;
+
+    box-shadow: 0.2rem 0.2rem #4F4538;
+
+    cursor: pointer;
+}
+
+.new-quote-btn:active {
+    /* transform: scale(0.95); */
+    box-shadow: none;
+    transform: translateX(2px);
+}
+
+@media(max-width: 728px) {
+    .title {
+        font-size: 1.2rem;
+        height: 2rem;
+    }
+    
+    .divider {
+        border-bottom: 0.1rem #70624F solid;
+    }
+    
+    .container {
+        width: 90%;
+    }
+
+    .quote-content {
+        width: 80%;
+    }
+
+    .new-quote-btn {
+        width: 7rem;
+        font-size: 1rem;
+    }
+
+    #quote {
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+    
+    #author {
+        font-size: 1rem;
+    }
+}
+
+
+
