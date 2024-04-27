@@ -2,7 +2,7 @@ document.getElementById('newQuotebtn').addEventListener('click', function(e) {
     e.preventDefault();
     const quoteEle = document.getElementById('quote');
     const authorEle = document.getElementById('author');
-    let url = "https://aditi002-holo.github.io/my-apis/haikyuuQuotes.json";
+    let url = "https://aditiintechk.github.io/my-apis/haikyuuQuotes.json";
     fetch(url)
         .then(response => {
             if(response.ok) {
