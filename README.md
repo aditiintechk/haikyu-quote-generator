@@ -1,6 +1,6 @@
 # Haikyū Quote Generator
 
-Haikyū is an anime I love & respect the most in my life. It has taught me a lot about dedication, loyalty, passion, etc. so, I have built a Quote Generator which fetches the quote from an API ([haikyuuQuotes.json](https://aditi002-holo.github.io/my-apis/haikyuuQuotes.json)) everytime the 'New Quote' button is pressed.
+Haikyū is an anime I love & respect the most in my life. It has taught me a lot about dedication, loyalty, passion, etc. so, I have built a Quote Generator which fetches the quote from an API ([haikyuuQuotes.json](https://aditiintechk.github.io/my-apis/haikyuuQuotes.json)) everytime the 'New Quote' button is pressed.
 
 ### Design
 
@@ -11,9 +11,9 @@ Haikyū is an anime I love & respect the most in my life. It has taught me a lot
 
 ### Code & URL
 
-- [Haikyu Quote Generator](https://aditi002-holo.github.io/haikyu-quote-generator/)
-- [Repository Link](https://github.com/Aditi002-holo/haikyuu-quote-generator)
-- [Quotes API](https://aditi002-holo.github.io/my-apis/haikyuuQuotes.json)
+- [Haikyu Quote Generator](https://aditiintechk.github.io/haikyu-quote-generator/)
+- [Repository Link](https://github.com/aditiintechk/haikyu-quote-generator)
+- [Quotes API](https://aditiintechk.github.io/my-apis/haikyuuQuotes.json)
 
 ### What did I learm?
 
